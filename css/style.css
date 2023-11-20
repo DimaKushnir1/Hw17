@@ -1,0 +1,51 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+header nav ul li {
+    position: relative;
+    float: left;
+
+}
+
+header nav ul li a{
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover{
+    background: brown;
+    color: white;
+}
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    display: none;
+    background: brown;
+    color: white;
+}
+
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid rgba(255,255,255);
+}
+
+nav ul li ul li ul{
+    left: 180px;
+    top: 0;
+}
+
+nav ul li:hover>ul{
+    display: initial;
+}
+
+.products:hover{
+    background: brown;
+    color: white;
+}
